@@ -1,0 +1,168 @@
+.movie-page {
+  color: white;
+  width: 100vw;
+  min-height: 100vh;
+  max-height: fit-content;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+}
+
+.back-icon {
+  font-size: 30px;
+  border: 2px solid #f5c600;
+  border-radius: 100px;
+  padding: 5px;
+  color: #f5c600;
+  transition: 0.5s ease-in-out;
+}
+
+.back-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.movie-back-button {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  justify-content: start;
+}
+
+.movie-page-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.movie__details__mov {
+  width: 60vw;
+  justify-content: flex-start;
+}
+
+.buttons {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.available-in {
+  display: flex;
+  padding: 50px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.available-in h3 {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.available-in-content {
+  display: flex;
+}
+
+.qualities {
+  font-size: 0.8rem;
+  /* border: 0.1px solid #f5c600; */
+  border-bottom: 1px solid white;
+  padding: 5px 10px;
+  margin: 0 0.7rem;
+  display: flex;
+  border-radius: 55px;
+  align-items: center;
+  justify-content: center;
+  transition: 2s ease-in-out;
+}
+
+.qualities:hover {
+  cursor: pointer;
+}
+
+.cast-section {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cast-prop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cast-prop img {
+  width: 5.5em;
+  border-radius: 10px;
+}
+
+.cast-prop span {
+  font-size: 1rem;
+  margin: 1rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+}
+
+.cast-section-inside {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 100px;
+}
+
+.cast-section-inside h1 {
+  margin: 1em;
+}
+
+.cast-content {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.movie_details_inside_mov {
+  width: 80vw;
+  display: flex;
+  padding: 50px 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.movie-heart-icon {
+  font-size: 35px;
+  color: red;
+  transition: 0.5s ease;
+}
+
+.movie-heart-icon :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.buttons-movie-page {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cast-columns {
+  width: 100%;
+}
+
+.trailer-btn {
+  background-color: transparent;
+}

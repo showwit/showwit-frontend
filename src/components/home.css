@@ -1,0 +1,156 @@
+.home__page {
+  color: white;
+  width: 100vw;
+  min-height: 100vh;
+  max-height: fit-content;
+  background-image: linear-gradient(to bottom, #000000c2, #000000b7),
+    url("https://image.tmdb.org/t/p/original/ntZBvASQ8XvYNUqL0LaBql7gzkk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.top__header {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.top_header_inside {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.top__icons {
+  font-size: 30px;
+  -webkit-transform: scaleX(-1);
+}
+
+.top_header_elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top_header_elements:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.top_header_elements span {
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 1.4px;
+}
+
+.movie__details {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.movie_details_inside {
+  width: 80vw;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.movie_details_inside h1 {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 3rem;
+}
+
+.movie_details_top_level {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 1rem 0;
+}
+.movie_details_top_level {
+  font-weight: 300;
+}
+
+.imdb_logo {
+  width: 4em;
+}
+
+.imdb_rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imdb_rate {
+  margin: 0rem 1rem;
+  font-weight: 500;
+}
+
+.top_level_desc {
+  width: 35%;
+  margin: 1em 0;
+}
+
+.button {
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: 2px solid #f5c600;
+
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 6px 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s ease-in;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 2px solid #f5c600;
+}
+
+.play__icons {
+  font-size: 36px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button2 {
+  border: 1px solid #f5c600;
+}
+
+.search_feild {
+}
+.search_feild input {
+  background-color: transparent;
+  outline: none;
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+}
+
+.link_remover {
+  text-decoration: none;
+  color: inherit;
+}
